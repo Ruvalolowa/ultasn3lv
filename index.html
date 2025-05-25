@@ -3,25 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="title" content="Ultimate Assassin 3 Level Pack">
-    <style>
-     html, body {
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background: black;
-     }
-
-     canvas {
-      display: block;
-      margin: 0 auto;
-      background-color: black;
-      image-rendering: pixelated;
-      width: 100vw;
-      height: 100vh;
-     }
-    </style>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="language" content="English">
     <title>Ultimate Assassin 3 Level Pack</title>
@@ -31,33 +14,7 @@
         supports it.</noscript>
 </head>
 <body>
-    <canvas id="gameCanvas"></canvas>
-    <button id="playbutton" onclick="window.location.href='game.html';">Play Now!5</button>
-    <script>
-     function resizeCanvas() {
-      const canvas = document.getElementById("gameCanvas");
-      const context = canvas.getContext("2d");
-
-      // 固定ゲーム解像度（例えば320x240の場合）
-      const gameWidth = 320;
-      const gameHeight = 240;
-
-      // 実際の画面サイズとアスペクト比に合わせて拡大率を決定
-      const scale = Math.min(
-        window.innerWidth / gameWidth,
-        window.innerHeight / gameHeight
-      );
-
-      canvas.width = gameWidth;
-      canvas.height = gameHeight;
-
-      canvas.style.width = gameWidth * scale + "px";
-      canvas.style.height = gameHeight * scale + "px";
-     }
-
-     window.addEventListener("resize", resizeCanvas);
-     window.addEventListener("load", resizeCanvas);
-    </script>
+    <button id="playbutton" onclick="window.location.href='game.html';">Play Now!6</button>
 </body>
 </html>
 
