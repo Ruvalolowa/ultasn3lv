@@ -24,6 +24,6 @@ body{
 }
 
 #flash-content {
- width: 320px; /* 画面幅いっぱいに表示 */
+ width: 100%; /* 画面幅いっぱいに表示 */
  height: auto; /* 高さも自動調整 */
 }
