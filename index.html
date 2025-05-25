@@ -4,6 +4,15 @@
     <meta charset="utf-8" />
     <title>Ultimate Assassin 3 : Level pack</title>
     <script src="ruffle/ruffle.js"></script>
+    <script>
+     window.RufflePlayer = window.RufflePlayer || {};
+     window.addEventListener("load", () => {
+       const ruffle = window.RufflePlayer.newest();
+       const player = ruffle.createPlayer();
+       document.querySelector("ruffle-player").replaceWith(player);
+       player.load("ultimateassassin3.swf");
+     });
+    </script>
     <style>
       body {
         background-color: black;
