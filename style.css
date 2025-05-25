@@ -25,5 +25,7 @@ body{
 
 #gameloc {
  width: 100vw;
- height: 10vh;
+ height: 100vh;
+ overflow: hidden;
+ position: relative;
 }
